@@ -65,9 +65,6 @@ p{
   right: 0px;
   z-index: 2;
 }
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -77,6 +74,45 @@ p{
   right: 0;
   z-index: 1;
 }
+
+.content{
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+}
+.description{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.two-columns{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+  border: 1px solid red;
+}
+.two-columns_brief{
+  width: 175px;
+  color: #2f80ed;
+  font-size: 18px;
+  font-weight: normal;
+}
+.two-columns_main-text{
+  min-width: 784px
+}
+.two-columns_paragraph{
+  height: 34px;
+  margin: auto 30px;
+  font-size: 24px;
+}
+.two-columns_span-accent{
+  font-size: 24px;
+  
+}
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
