@@ -91,7 +91,6 @@ p{
   justify-content: space-between;
   flex-direction: row;
   align-items: stretch;
-  border: 1px solid red;
 }
 .two-columns_brief{
   width: 175px;
@@ -100,16 +99,21 @@ p{
   font-weight: normal;
 }
 .two-columns_main-text{
-  min-width: 784px
+  width: 80%;
+  min-width: 784px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
-.two-columns_paragraph{
-  height: 34px;
-  margin: auto 30px;
+.two-columns__paragraph{
+  align-items: center;
+  margin-bottom: 30px;
   font-size: 24px;
+  min-height: 34px;
 }
 .two-columns_span-accent{
-  font-size: 24px;
-  
+  font-weight: bold;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
