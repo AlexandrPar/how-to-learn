@@ -17,7 +17,7 @@
   background-color:  #f2f2f2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-bottom: 100px;
   /* выше установили ограничения для секции */
 }
@@ -30,16 +30,17 @@
   left: 64px;
 }
 .header__title{
+  display: block;
   width: 730px;
-  align-self: flex-start;
   height: 96px;
+  align-items: baseline;
   margin-left: 64px;
-  font-size: 102px;
-  font-weight: bold;
+  margin-top: 0;
   z-index: 4;
 }
 h1{
-
+font-size: 102px;
+font-weight: bold;
 }
 .header__subtitle{
   width: 388px;
