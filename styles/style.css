@@ -246,13 +246,13 @@
   margin-top: 90px;
   margin-bottom: 0;
   color: white;
-  z-index: 2;
+  z-index: 4;
 }
 .kaufman__section-subtitle_theme_dark{
   margin-top: 20px;
   margin-bottom: 0;
   color: white;
-  z-index: 2;
+  z-index: 4;
 }
 .table_theme_dark{
   margin-left: auto;
