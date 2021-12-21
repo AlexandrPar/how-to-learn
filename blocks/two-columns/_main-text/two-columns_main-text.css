@@ -1,0 +1,10 @@
+.two-columns_main-text{
+    width: 80%;
+    min-width: 784px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }

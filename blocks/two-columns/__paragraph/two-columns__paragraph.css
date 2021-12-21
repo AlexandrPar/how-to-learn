@@ -1,0 +1,18 @@
+.two-columns__paragraph{
+    align-items: center;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .two-columns__paragraph:first-of-type{
+    margin: 0 0 30px 0;
+  }
+  .two-columns__paragraph:nth-of-type(2n){
+    margin: 0 0 30px 0;
+  }
+  .two-columns__paragraph:last-of-type{
+    margin: 0;
+  }
+  .two-columns__span-accent{
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,10 @@
+.khan__book-pic{
+    width: 620px;
+    height: 608px;
+    background-image:url(../../../images/khan-book.jpg);
+    alt: "Салман Хан Весь мир — школа";
+    background-size: cover;
+    overflow: hidden;
+    margin-right: 48px;
+    z-index: 3;
+  }
