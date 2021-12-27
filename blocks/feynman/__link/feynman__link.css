@@ -6,9 +6,8 @@
     top: 50%;
     right: 48px;
     text-decoration: none;
+    transition: opacity 0.3s, visibility 1s linear 0.3s;
   }
   .feynman__link:hover{
     opacity: 0.5;
-    visibility: visible;
-    transition: opacity 0.3s, visibility 1s linear 0.3s;
 }

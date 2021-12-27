@@ -2,12 +2,11 @@
     font-size: 30px;
     line-height: 42px;
     color: #2f80ed;
-    top: 50%;
-    right: 48px;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
+    transition: opacity 0.3s, visibility 1s linear 0.3s;
   }
   .khan__buy-link:hover{
     opacity: 0.5;
-    visibility: visible;
-    transition: opacity 0.3s, visibility 1s linear 0.3s;
 }

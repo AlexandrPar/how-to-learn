@@ -2,9 +2,8 @@
     color: white;
     line-height: 30px;
     text-decoration: none;
+    transition: opacity 0.3s, visibility 1s linear 0.3s;
     }
 .footer__column-link:hover{
     opacity: 0.5;
-    visibility: visible;
-    transition: opacity 0.3s, visibility 1s linear 0.3s;
 }
